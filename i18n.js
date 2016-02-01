@@ -95,7 +95,7 @@ var i18n = module.exports = function (opt) {
 i18n.version = "0.4.7";
 
 i18n.localeCache = {};
-i18n.resMethods = ["__", "__n", "getLocale", "isPreferredLocale"];
+i18n.resMethods = ["__", "__n", "getLocale", "isPreferredLocale", "setLocale"];
 
 i18n.expressBind = function (app, opt) {
 	if (!app) {
